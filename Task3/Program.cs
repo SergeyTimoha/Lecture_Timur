@@ -10,7 +10,10 @@ WriteLine("Введите первое число");
 int num1 =  Convert.ToInt32(ReadLine());
 WriteLine("Введите второе число");
 int num2 =  Convert.ToInt32(ReadLine());
-if(num1 % num2 == 0)
+/*if(num1 % num2 == 0)
     WriteLine("Кратное число");
 else
-    WriteLine("Не кратное, остаток = " + num1 % num2);
+    WriteLine("Не кратное, остаток = " + num1 % num2);*/
+
+string answer = num1 % num2 == 0?"Кратно":$"Не кратное, остаток - {num1 % num2 }";
+ WriteLine(answer);
