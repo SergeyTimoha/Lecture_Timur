@@ -12,4 +12,4 @@ int c =  Convert.ToInt32(ReadLine());
 
 
 int max = (a > b && a > c)?a:(b > a && b > c)?b:c;
-WriteLine(max);
+WriteLine("Число max = " + max);
